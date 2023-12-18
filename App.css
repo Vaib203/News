@@ -1,0 +1,56 @@
+/*header css*/
+
+.header{
+    width: 100%;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 20%;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    font-size: 17px;
+    border: 1px solid black;
+}
+
+/*new article css*/
+.news_articles{
+    width: 100%;
+    padding: 30px 5%;
+    /*background-color: red;*/
+    display: flex;
+    column-gap: 4%;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.news{
+    width: 22%;
+    padding: 20px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    border-radius: 5px;
+}
+.news_img{
+    width: 100%;
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png?20210219185637");
+    background-size: cover;
+}
+.news_img img{
+    width: 100%;
+}
+.source{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
